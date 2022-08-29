@@ -1,0 +1,129 @@
+body {
+    --brand-color: rgb(37, 99, 235);
+
+    margin: 0px;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+header {
+    padding: 40px 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section {
+    padding: 40px 100px;
+
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo {
+    height: 40px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 48px;
+}
+
+.bg-brand {
+    color: var(--brand-color);
+}
+
+.span-mark {
+    position: relative;
+    top: 0;
+    white-space: nowrap;
+    height: 60px;
+}
+
+.span-marks {
+    position: absolute;
+    top: 60px;
+    fill: rgba(147,197,253,.7);
+    z-index:-1;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 36px; 
+}
+
+a {
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+    color: #52606D;
+}
+
+a:hover {
+    background-color: #F5F7FA;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.pry-btn {
+    background-color: var(--brand-color);
+    color: white;
+}
+
+.sec-btn {
+    background-color: white;
+    color: #323F4B;
+    border: 1px solid #CBD2D9;
+}
+
+.drk-btn {
+    background-color: #0f172A;
+    color: white;
+}
+
+.inner-icon{
+    height: 16px;
+}
+
+section {
+    margin: 0px 80px;
+
+}
+
+section > h1 {
+    font: 72px Lexend, sans-serif;
+    color: #0f172A;
+    text-align: center;
+    margin: 0px 100px;
+}
+
+section > p {
+    margin: 20px 250px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+i {
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
